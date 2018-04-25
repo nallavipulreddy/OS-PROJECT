@@ -90,13 +90,13 @@ do{
   }
   if(count1!=n)
   {
-     printf("\n---------------IT'S AN UNSAFE STATE---------------");
+     printf("\n IT'S NOT UNSAFE STATE");
      break;
   }
 }while(count1!=n);
 if(count1==n)
 {
-   printf("\n *******************IT'S A SAFE STATE*******************");
+   printf("\n IT'S A SAFE STATE ");
    printf("\n The safe sequence is....\n");
    for(i=0;i<n;i++)
        printf("\t P%d",sq[i]);
