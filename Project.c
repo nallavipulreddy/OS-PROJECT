@@ -13,7 +13,7 @@ for(i=0;i<10;i++)
 printf("\n Input the number of resources :");
 scanf("%d",&r);
 system("cls");
-printf("\n\n Input the allocation matrix for the processes in row major order..\n");
+printf("\n\n Input the allocation matrix for the processes \n");
 for(i=0;i<n;i++)
 {
 	printf("\n=======================================\n");
@@ -27,7 +27,7 @@ for(i=0;i<n;i++)
     }
 }
 system("cls");
-printf("\n\n Input the no. of resources that a process can maximum have:\n");
+printf("\n\n Input the maximum no. of resources that a process can have:\n");
 for(i=0;i<n;i++)
 {
 	printf("\n=======================================\n");
